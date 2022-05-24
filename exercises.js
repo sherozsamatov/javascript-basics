@@ -1,3 +1,36 @@
+// Previuos exercises
+
+// // 1. задача
+// let a = 300; // sec
+// let b = 60; // 1 min = 60sec
+
+// let result = a/b; // result in minutes
+
+// // const min = 'min';
+
+// console.log(result);
+
+// // 1.1 задача
+// let a = 19000; // sec
+// let b = 3600; // 1 hr = 3600sec
+
+// let c = a % b; // остаток
+
+// let result = a / b; // result in hrs
+// let result = Math.floor(a / b); // result in hrs
+
+// console.log(result, 'hours', c, 'sec');
+
+let a = 7;
+let b = 5;
+let area = a + b/2;
+
+console.log(area);
+
+
+
+
+
 // Exercise 1
 
 /*
