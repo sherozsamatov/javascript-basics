@@ -1,6 +1,18 @@
 // Lesson 7
 
-// 1. If else statements
+// 1. Ternary operators
+// For example:
+// если у клиента более 100 баллов, то он 'золотой' клиент, 
+// если меньше 100 баллов, то он 'серебренный' клиент
+
+// let points = 90;
+
+// let customerType = points > 100 ? 'gold' : 'silver';
+
+// console.log(customerType, typeof customerType);
+
+
+// 2. If else statements
 // Если время между 6 утра и 12 дня: Доброе утро!
 // Если время между 12 дня и 6 вечера: Добрый день!
 // Если время между 6 утра и 12 ночи: Добрый вечер!
@@ -47,18 +59,6 @@
 // else if (hour >=18 && hour < 24) console.log('Good evening');
 
 // else console.log('Good night');
-
-
-// 2. Ternary operators
-// For example:
-// если у клиента более 100 баллов, то он 'золотой' клиент, 
-// если меньше 100 баллов, то он 'серебренный' клиент
-
-// let points = 90;
-
-// let customerType = points > 100 ? 'gold' : 'silver';
-
-// console.log(customerType, typeof customerType);
 
 
 
