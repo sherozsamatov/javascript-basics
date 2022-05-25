@@ -21,11 +21,11 @@
 
 // console.log(result, 'hours', c, 'sec');
 
-let a = 7;
-let b = 5;
-let area = a + b/2;
+// let a = 7;
+// let b = 5;
+// let area = a + b/2;
 
-console.log(area);
+// console.log(area);
 
 
 
@@ -41,6 +41,7 @@ boolToString(true) ➞ "true"
 
 boolToString(false) ➞ "false"
 */
+
 
 // Solution 1
 
@@ -62,16 +63,15 @@ boolToString(false) ➞ "false"
 
 
 // Solution 4
-// function boolToString(flag) {
-// 	return flag + '';
-// }
+function boolToString(flag) {
+	return flag + '';
+}
 
-// let a = boolToString(false);
+let a = boolToString(false);
+let b = boolToString(true);
 
-// let b = boolToString(true);
-
-// console.log(a, typeof a);
-// console.log(b, typeof b);
+console.log(a, typeof a);
+console.log(b, typeof b);
 
 
 // Exercise 2

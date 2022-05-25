@@ -145,13 +145,13 @@
 // 3.2 Вычисляет что-то и возвращает значение этого выражения. 
 // Например: вычисляет квадрат числа
 
-function myFunction(number) {
-  return number * number;
-}
+// function myFunction(number) {
+//   return number * number;
+// }
 
-myFunction(3); // ничего не показывает
+// myFunction(3); // ничего не показывает
 
-// console.log(myFunction(3));
+// console.log(myFunction(4));
 
 // let calcNum = myFunction(4);
 
@@ -161,7 +161,7 @@ myFunction(3); // ничего не показывает
 //   return num1 ** num2;
 // }
 
-// let calcNum = myFunction(2, 64);
+// let calcNum = myFunction(3, 4);
 
 // console.log(calcNum);
 
