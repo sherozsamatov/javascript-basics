@@ -84,12 +84,43 @@
 
 // 3.1 Выполняет что-то
 
+
 // function myFunction(name, surname) {
 //   console.log('Hello, ' + name + ' ' + surname);
 // }
 
-// let myVar = function myFunction(name, surname) {
+// myFunction('Doni', 'Akbarov')
+
+
+// let a = 'Doni';
+// let b = 'Akbarov';
+
+// function myFunction(name, surname) {
 //   console.log('Hello, ' + name + ' ' + surname);
+// }
+
+// myFunction(a, b)
+
+
+
+// let a = prompt('Enter your name: ');
+// let b = prompt('Enter your surname: ');
+
+
+
+// let funcName = function myFunction(name, surname) {
+//   console.log('Hello, ' + name + ' ' + surname);
+// };
+
+// funcName(a, b);
+
+// console.log(typeof funcName);
+
+
+
+// Функции можно вызвать по несколько раз с разными аргументами
+// function myFunction(myName, mySurname) {
+//   console.log('Hello, ' + myName + ' ' + mySurname);
 // }
 
 // myFunction('Doniyor', 'Akbarov');
@@ -97,18 +128,28 @@
 // myFunction('Kamol', 'Sobirov');
 
 
-// console.log(myVar, typeof myVar);
-// myVar('Doniyor', 'Akbarov');
-
-
-
-// 3.2 Вычисляет что-то и возвращает значение выражения. 
-// Например: вычисляет квадрат числа
-
-// function myFunction(number) {
-//   return number * number;
+// let myVar = function myFunction(name, surname) {
+//   console.log('Hello, ' + name + ' ' + surname);
 // }
 
+// myVar('Doniyor', 'Akbarov');
+// myVar('Mashhur', 'Masejonov');
+// myVar('Kamol', 'Sobirov');
+
+
+// console.log(myVar, typeof myVar);
+
+
+
+
+// 3.2 Вычисляет что-то и возвращает значение этого выражения. 
+// Например: вычисляет квадрат числа
+
+function myFunction(number) {
+  return number * number;
+}
+
+myFunction(3); // ничего не показывает
 
 // console.log(myFunction(3));
 
