@@ -63,15 +63,15 @@ boolToString(false) ➞ "false"
 
 
 // Solution 4
-function boolToString(flag) {
-	return flag + '';
-}
+// function boolToString(flag) {
+// 	return flag + '';
+// }
 
-let a = boolToString(false);
-let b = boolToString(true);
+// let a = boolToString(false);
+// let b = boolToString(true);
 
-console.log(a, typeof a);
-console.log(b, typeof b);
+// console.log(a, typeof a);
+// console.log(b, typeof b);
 
 
 // Exercise 2
@@ -159,5 +159,55 @@ console.log(b, typeof b);
 // let z = acceptIntoMovie(16, false) //➞ true
 
 // console.log(x, y, z);
+
+// Find max of two numbers
+// 1st implementation
+// function maxOfTwo(a, b) {
+//   if(a > b) console.log(a);
+//   else if (b > a) console.log(b);
+//   else console.log('Numbers are equal');
+// }
+
+// maxOfTwo(11, 11);
+
+
+// 2nd implementation
+// function maxOfTwo(a, b) {
+//   if (a > b) return a;
+//   else return b;
+// }
+
+// function maxOfTwo(a, b) {
+//   if (a > b) return a;
+//   return b;
+// }
+
+
+// let number = maxOfTwo(23, 23);
+// console.log(number);
+
+// function maxOfTwo(a, b) {
+//   return (a > b) ? a : b;
+// }
+
+// ***************** end of section *****************
+
+function findIndex(arr, str) {
+  for (key of findIndex) {
+    console.log(key);
+  }
+}
+
+
+
+
+
+findIndex(["hi", "edabit", "fgh", "abc"], "fgh") //➞ 2
+
+findIndex(["Red", "blue", "Blue", "Green"], "blue") //➞ 1
+
+findIndex(["a", "g", "y", "d"], "d") //➞ 3
+
+findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
 
 
