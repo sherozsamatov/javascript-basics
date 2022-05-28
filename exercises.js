@@ -185,89 +185,10 @@ boolToString(false) ➞ "false"
 // ***************** end of section *****************
 
 // function findIndex(arr, str) {
-//   for (key of arr) {
+//   for (key of findIndex) {
 //     console.log(key);
-//     if(key === )
 //   }
 // }
-
-// findIndex(["hi", "edabit", "fgh", "abc"], "fgh") //➞ 2
-
-// findIndex(["Red", "blue", "Blue", "Green"], "blue") //➞ 1
-
-// findIndex(["a", "g", "y", "d"], "d") //➞ 3
-
-// findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
-
-// function word(string) {
-//   switch(string) {
-//     case 'one':
-//       console.log(1);
-//       break;
-
-//     case 'two':
-//       console.log(2);
-//       break;
-
-//       default:
-//         console.log('Not a number from list');
-//   }
-
-// }
-
-// word("one"); //➞ 1
-
-// word("two"); //➞ 2
-
-// word("nine"); //➞ 9
-
-// console.log(showNumbers(8));
-
-// function showNumbers(limit){
-//   for (let i = 0; i <= limit; i++) {
-//     if (i % 2 === 0) return `${i}, 'EVEN'`;
-//     return `${i}, 'ODD'`;
-//   }
-
-// } // wrong!
-
-// showNumbers(10);
-
-// function showNumbers(limit){
-//   for (let i = 0; i <= limit; i++) {
-//     if (i % 2 === 0) console.log(`${i}, 'EVEN'`);
-//     else console.log(`${i}, 'ODD'`);
-//   }
-
-// }
-
-// showNumbers(10);
-
-// function showNumbers(limit) {
-// 	for (let i = 0; i <= limit; i++) {
-// 		const message = i % 2 === 0 ? "EVEN" : "ODD";
-// 		console.log(i, message);
-// 	}
-// }
-
-// const myArray = [0, null, undefined, "", 1, 2, 3, "Sheroz"];
-// console.log(countTruthy(myArray));
-
-// function countTruthy(array) {
-//   let count = 0;
-//   for (let value of array)
-//     if (value)
-//       count++;
-//   return count;
-// }
-
-
-const movie = {
-  title: 'Avatar',
-  releaseYear: 2009,
-  rating: 4.5,
-  director: 'James Cameron'
-}
 
 let result = showProperties(movie);
 console.log(result);
@@ -278,3 +199,15 @@ function showProperties(obj) {
       console.log(key, obj[key]);
   }
 }
+
+
+
+// findIndex(["hi", "edabit", "fgh", "abc"], "fgh") //➞ 2
+
+// findIndex(["Red", "blue", "Blue", "Green"], "blue") //➞ 1
+
+// findIndex(["a", "g", "y", "d"], "d") //➞ 3
+
+// findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
+
+
