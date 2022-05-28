@@ -37,23 +37,17 @@
 
 // 2. FizzBuzz
 
-// const output = fizzBuzz();
-// console.log(output);
-
-// function fizzBuzz(input) {
-//   if (typeof input !== "number")
-//     return "Not a number";
-//   if (input % 3 === 0 %% input % === 0)
-//     return 'FizzBuzz'
-
-//   if (input % 3 === 0)
-//     return 'Fizz';
-//   if (input % 5 === 0)
-//     return 'Buzz';
-
+// function FizzBuzz(input) {
+//   if (input === 0) return input;
+//   if ((input % 3 === 0) && (input % 5 === 0)) return 'FizzBuzz';
+//   if (input % 3 === 0) return 'Fizz';
+//   if (input % 5 === 0) return 'Buzz';
+//   if (typeof input !== 'number') return NaN;
 //   return input;
-
 // }
+
+// const output = FizzBuzz(17);
+// console.log(output);
 
 
 // 3. Speed limit  = 70
@@ -70,7 +64,16 @@
 
 
 // 4. Even and odd numbers
-// showNumbers(10);
+
+// function showNumbers(limit) {
+//   for (let i = 1; i <= limit; i++) {
+//     if (i % 2 === 0) console.log(i, 'EVEN');
+//     else console.log(i, 'ODD');
+//   }
+// }
+
+
+// showNumbers(20);
 
 
 // function showNumbers(limit){
@@ -82,7 +85,7 @@
 // }
 
 
-// 5. count truthy
+// 5. count truthy elements in an array
 
 // const myArray = [0, null, undefined, '', 1, 2, 3, 'Sheroz'];
 // console.log(countTruthy(myArray));
@@ -96,17 +99,17 @@
 // }
 
 
-// 6. 
+// 6. return the key-value pairs of an object that are of string type 
 
-const movie = {
-  title: 'Avatar',
-  releaseYear: 2009,
-  rating: 4.5,
-  director: 'James Cameron'
-}
+// const movie = {
+//   title: 'Avatar',
+//   releaseYear: 2009,
+//   rating: 4.5,
+//   director: 'James Cameron'
+// }
 
-let result = showProperties(movie);
-console.log(result);
+// let result = showProperties(movie);
+// console.log(result);
 
 // function showProperties(obj) {
 //   for (key in obj) {
