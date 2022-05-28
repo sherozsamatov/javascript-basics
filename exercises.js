@@ -192,22 +192,22 @@ boolToString(false) ➞ "false"
 
 // ***************** end of section *****************
 
-function findIndex(arr, str) {
-  for (key of findIndex) {
-    console.log(key);
-  }
-}
+// function findIndex(arr, str) {
+//   for (key of findIndex) {
+//     console.log(key);
+//   }
+// }
 
 
 
 
 
-findIndex(["hi", "edabit", "fgh", "abc"], "fgh") //➞ 2
+// findIndex(["hi", "edabit", "fgh", "abc"], "fgh") //➞ 2
 
-findIndex(["Red", "blue", "Blue", "Green"], "blue") //➞ 1
+// findIndex(["Red", "blue", "Blue", "Green"], "blue") //➞ 1
 
-findIndex(["a", "g", "y", "d"], "d") //➞ 3
+// findIndex(["a", "g", "y", "d"], "d") //➞ 3
 
-findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
+// findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
 
 
