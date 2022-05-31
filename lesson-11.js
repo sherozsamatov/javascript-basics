@@ -114,22 +114,22 @@ html
 // ***************** index.js *****************
 // Lesson 12 - String slicing in JavaScript
 
-// slice() extracts a section of a string 
-//         and returns it as a new string, 
-//         without modifying the original string
+slice() extracts a section of a string 
+        and returns it as a new string, 
+        without modifying the original string
 
-// let fullName = "Snoop Dogg";
-// let firstName;
-// let lastName;
+let fullName = "Snoop Dogg";
+let firstName;
+let lastName;
 
-//firstName = fullName.slice(0, 3);
-//lastName = fullName.slice(4);
+// firstName = fullName.slice(0, 3);
+// lastName = fullName.slice(4);
 
-// firstName = fullName.slice(0, fullName.indexOf(" "));
-// lastName = fullName.slice(fullName.indexOf(" ") + 1);
+firstName = fullName.slice(0, fullName.indexOf(" "));
+lastName = fullName.slice(fullName.indexOf(" ") + 1);
 
-// console.log(firstName);
-// console.log(lastName);
+console.log(firstName);
+console.log(lastName);
 
 // ***************** index.js *****************
 // Lesson 13 - Method chaining in JavaScript
