@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+  gap: 0.5rem;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
