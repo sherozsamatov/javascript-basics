@@ -27,10 +27,6 @@
 
 // console.log(area);
 
-
-
-
-
 // Exercise 1
 
 /*
@@ -42,25 +38,21 @@ boolToString(true) ➞ "true"
 boolToString(false) ➞ "false"
 */
 
-
 // Solution 1
 
 // function boolToString(flag) {
 // 	return String(flag)
 // }
 
-
 // Solution 2
 // function boolToString(flag) {
 // 	return `${flag}`;
 // }
 
-/******************** end of section ********************/
 // Solution 3
 // function boolToString(flag) {
 // 	return flag ? 'true' : 'false';
 // }
-
 
 // Solution 4
 // function boolToString(flag) {
@@ -73,6 +65,7 @@ boolToString(false) ➞ "false"
 // console.log(a, typeof a);
 // console.log(b, typeof b);
 
+// ***************** end of section ***************** //
 
 // Exercise 2
 
@@ -89,7 +82,7 @@ boolToString(false) ➞ "false"
 // console.log(a, b, c);
 
 // function makesTen(a, b) {
-	
+
 // }
 
 // makesTen(9, 10) //➞ true
@@ -98,6 +91,7 @@ boolToString(false) ➞ "false"
 
 // makesTen(1, 9) //➞ true
 
+// ***************** end of section ***************** //
 
 // Exercise 3
 // Solution 1
@@ -118,12 +112,12 @@ boolToString(false) ➞ "false"
 
 // let b = divisible(1000); //➞ true
 
-// let c = divisible(100); //➞ true  
+// let c = divisible(100); //➞ true
 
 // console.log(a, b, c);
 
 // function acceptIntoMovie(age, isSupervised) {
-	
+
 // }
 
 // acceptIntoMovie(14, true) //➞ true
@@ -151,7 +145,6 @@ boolToString(false) ➞ "false"
 //   return (age > 15) || isSupervised;
 // }
 
-
 // let x = acceptIntoMovie(14, true) //➞ true
 
 // let y = acceptIntoMovie(14, false) //➞ false
@@ -170,7 +163,6 @@ boolToString(false) ➞ "false"
 
 // maxOfTwo(11, 11);
 
-
 // 2nd implementation
 // function maxOfTwo(a, b) {
 //   if (a > b) return a;
@@ -178,12 +170,12 @@ boolToString(false) ➞ "false"
 // }
 
 // function maxOfTwo(a, b) {
-//   if (a > b) return a;
+// if (a==b) return 'The numbers are equal'
+//   else if (a > b) return a;
 //   return b;
 // }
 
-
-// let number = maxOfTwo(23, 23);
+// let number = maxOfTwo(214, 89);
 // console.log(number);
 
 // function maxOfTwo(a, b) {
@@ -198,7 +190,15 @@ boolToString(false) ➞ "false"
 //   }
 // }
 
+// let result = showProperties(movie);
+// console.log(result);
 
+// function showProperties(obj) {
+//   for (key in obj) {
+//     if (typeof obj[key] === 'string')
+//       console.log(key, obj[key]);
+//   }
+// }
 
 
 
