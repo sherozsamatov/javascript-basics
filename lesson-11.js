@@ -142,7 +142,7 @@ html
 // let letter = userName.charAt(0);
 // letter = letter.toUpperCase();
 
-// let letter = userName.charAt(0).toUpperCase().trim(); // is uquivalent to the above code
+// let letter = userName.charAt(0).toUpperCase().trim(); // is equivalent to the above code
 
 // console.log(letter);
 
