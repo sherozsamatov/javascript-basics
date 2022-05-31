@@ -50,20 +50,7 @@
 // console.log(output);
 
 
-// 3. Speed limit  = 70
-// 5 -> 1 point
-// Math.floor(1.3)
-// 12 points -> license suspended
-
-// checkSpeed(180);
-
-// function checkSpeed(speed) {
-//   if (speed <= 70) return 'Ok'
-
-// }
-
-
-// 4. Even and odd numbers
+// 3. Even and odd numbers
 
 // function showNumbers(limit) {
 //   for (let i = 1; i <= limit; i++) {
@@ -85,7 +72,7 @@
 // }
 
 
-// 5. count truthy elements in an array
+// 4. count truthy elements in an array
 
 // const myArray = [0, null, undefined, '', 1, 2, 3, 'Sheroz'];
 // console.log(countTruthy(myArray));
@@ -99,7 +86,7 @@
 // }
 
 
-// 6. return the key-value pairs of an object that are of string type 
+// 5. return the key-value pairs of an object that are of string type 
 
 // const movie = {
 //   title: 'Avatar',
