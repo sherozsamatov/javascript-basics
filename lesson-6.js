@@ -2,8 +2,11 @@
 
 // const in Javascript
 // const нельзя изменить и всегда пишется с большой буквы
+// если объект объявить ч-з const то его можно измнить.
 
 // const PI = 3.14159;
+// PI = 2.322;
+// console.log(PI);
 
 // let radius; // радиус
 // let circumference; // длина окружности
@@ -12,9 +15,9 @@
 // radius = Number(radius);
 
 // circumference = 2 * PI * radius;
-// // console.log(radius, typeof radius);
+// console.log(radius, typeof radius);
 
-// // console.log('The circumference of a circle is', circumference);
+// console.log('The circumference of a circle is', circumference);
 // alert('The circumference of a circle is ' + circumference);
 
 
@@ -44,11 +47,13 @@
 // x = Math.round(x); // округляет
 // x = Math.floor(x); // округляет в меньшую сторону
 // x = Math.ceil(x); // округляет в большую сторону
-// x = Math.pow(x, 2); // возвышает в степень (x **= 2; // x = x ** 2)
+// x = Math.pow(x, 5); // возвышает в степень (x **= 2; // x = x ** 2)
 // x = Math.sqrt(x); // корень числа
 // x = Math.SQRT2; // корень из 2
 // x = Math.SQRT1_2; // корень из 1/2
 // x = Math.abs(x); // модуль числа х
+
+// console.log(x);
 
 // maximum = Math.max(x, y, z); // возвращает число с макс. значением
 // minimum = Math.min(x, y, z); // возвращает число с мин. значением
@@ -60,7 +65,7 @@
 // x = 0.2;
 // y = 0.4;
 
-// console.log((x + y).toFixed(1));
+// console.log((x + y).toFixed(15));
 
 // Задача
 
@@ -74,6 +79,6 @@
 // let result = calcSqrt(num1, num2);
 
 // console.log('Side C is: ', result);
-// // alert('Side C is: ' + result);
+// alert('Side C is: ' + result);
 
 
