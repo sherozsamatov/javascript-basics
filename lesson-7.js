@@ -1,11 +1,9 @@
 // Lesson 7
 
 // 1. If else statements
-// Если время между 6 утра и 12 дня: Доброе утро!
-// Если время между 12 дня и 6 вечера: Добрый день!
-// Если время между 6 утра и 12 ночи: Добрый вечер!
-// В остальных случаях: Спокойной ночи!
 
+
+// If else syntaxis
 // if(condition){
 //   statement
 // }
@@ -19,23 +17,31 @@
 //   statement
 // }
 
-// let hour = 24;
+// Если время сутки между 6 утра и 12 дня: Доброе утро!
+// Если время сутки между 12 дня и 6 вечера: Добрый день!
+// Если время сутки между 6 вечера и 12 ночи: Добрый вечер!
+// В остальных случаях: Спокойной ночи!
 
-// if (hour >=6 && hour < 12) {
+// let hour = 12;
+
+// if (hour >= 6 && hour < 12) {
 //   console.log('Good morning');
 // }
 
-// else if (hour >=12 && hour < 18) {
+// else if (hour >= 12 && hour < 18) {
 //   console.log('Good afternoon');
 // }
 
-// else if (hour >=18 && hour < 24) {
+// else if (hour >= 18 && hour < 24) {
 //   console.log('Good evening');
 // }
 
 // else {
 //   console.log('Good night');
 // }
+
+// If there's only only one condition inside the curly braces, 
+// the curly braces can optionally be left out. E.g. below
 
 // let hour = 24;
 
@@ -46,6 +52,8 @@
 // else if (hour >=18 && hour < 24) console.log('Good evening');
 
 // else console.log('Good night');
+
+
 
 // function myFunction(month, monthName) {
 
