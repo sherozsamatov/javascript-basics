@@ -114,24 +114,24 @@
 
 // Examle 4. How to print a right trianle in JavaScript
 
-printTriangle(15)
+// printTriangle(15)
 
-function printTriangle(number) {
-  let string = '';
+// function printTriangle(number) {
+//   let string = '';
   
-  for (let i = 1; i <= number; i++) {
-    // for loop to print spaces
-    for (let j = 0; j < number - i; j++) {
-      string += ' ';
-    } 
+//   for (let i = 1; i <= number; i++) {
+//     // for loop to print spaces
+//     for (let j = 0; j < number - i; j++) {
+//       string += ' ';
+//     } 
 
-    // for loop to print the '*'
-    for(let k = 0; k < i; k++) {
-      string += '*';
-    }
+//     // for loop to print the '*'
+//     for(let k = 0; k < i; k++) {
+//       string += '*';
+//     }
 
-    string += '\n'
-}
+//     string += '\n'
+// }
 
-console.log(string);
-}
+// console.log(string);
+// }
