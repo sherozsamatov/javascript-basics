@@ -158,7 +158,7 @@ css
 // console.log(firstName);
 // console.log(lastName);
 
-// firstName = fullName.slice(0, fullName.indexOf(" "));
+firstName = fullName.slice(0, fullName.indexOf(" "));
 // lastName = fullName.slice(fullName.indexOf(" ") + 1).trim();
 // console.log(firstName);
 // console.log(lastName);
