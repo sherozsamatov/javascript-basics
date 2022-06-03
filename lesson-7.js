@@ -6,6 +6,10 @@
 // If else syntaxis
 // if(condition){
 //   statement
+//   if(condition2) {
+
+//   }
+
 // }
 // else if (anotherCondition){
 //   statement
@@ -24,7 +28,7 @@
 
 // let hour = 12;
 
-// if (hour >= 6 && hour < 12) {
+// if (hour >= 6 && hour < 12) { // время между 6 утра и 12 дня
 //   console.log('Good morning');
 // }
 
@@ -52,6 +56,8 @@
 // else if (hour >=18 && hour < 24) console.log('Good evening');
 
 // else console.log('Good night');
+
+// ***************** end of section *****************
 
 
 
@@ -97,23 +103,32 @@
 
 
 // 2. Ternary operators
+// Тернарные операторы
 // For example:
 // если у клиента более 100 баллов, то он 'золотой' клиент,
-// если меньше 100 баллов, то он 'серебренный' клиент
+// если меньше 100 баллов, то он 'серебрянный' клиент
+
+// syntaxis
+// (condition) ? statement : statement;
+// (condition) ? statement : anotherStatement : yetAnotherStatement :  statement;
+
+// ? - 'if' condition is true
+// : - 'else' or 'else if' condition is true, or the first condition is false
 
 // let points = 90;
 
-// let customerType = points > 100 ? 'gold' : 'silver';
+// let customerType = (points > 100) ? 'gold' : 'silver';
 
 // console.log(customerType, typeof customerType);
 
 
 // let speed = 80;
-// let message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'OK';
+// let message = (speed >= 120) ? 'Too Fast' : (speed >= 80) ? 'Fast' : 'OK';
 
 // console.log(message);
 
 // ***************** end of section *****************
+
 
 
 
@@ -138,11 +153,16 @@
 //   // it's like else
 //   default:
 //     console.log('Unknown user');
-// // }
+// }
+
+// ***************** end of section *****************
+
+
+
 
 // let userRole = '';
 
-// if (userRole === 'guest') console.log('Guest user');
+// if (userRole == 'guest') console.log('Guest user');
 // else if (userRole === 'moderator') console.log('Moderator user');
 // else if (userRole === 'admin') console.log('Admin user');
 // else console.log('Unknown user');
@@ -167,28 +187,64 @@
 //     break;
 
 //   default:
-//     console.log(grade, 'is not a letter grade!');
+//     console.log(grade, 'is not a grade letter!');
 // }
 
-// let monthNum = prompt("Enter month number: ");
-// monthNum = Number(monthNum);
+// ***************** end of section *****************
 
+
+
+
+
+// this is saving our input to a variable
+// это сохраняет что вводит пользователь в переменную monthNum
+// let monthNum = prompt("Enter month number: "); 
+// monthNum = Number(monthNum); // преобразует вводимое в число
+// myFunction(monthNum);
 
 // function myFunction(month) {
 // 	switch (month) {
 // 		case 1:
 // 			console.log("Jan");
 // 			break;
-
 // 		case 2:
 // 			console.log("Feb");
 // 			break;
+// 		case 3:
+// 			console.log("Mar");
+// 			break;
+// 		case 4:
+// 			console.log("Apr");
+// 			break;
+// 		case 5:
+// 			console.log("May");
+// 			break;
+// 		case 6:
+// 			console.log("Jun");
+// 			break;
+// 		case 7:
+// 			console.log("Jul");
+// 			break;
+// 		case 8:
+// 			console.log("Aug");
+// 			break;
+// 		case 9:
+// 			console.log("Sep");
+// 			break;
+// 		case 10:
+// 			console.log("Oct");
+// 			break;
+// 		case 11:
+// 			console.log("Nov");
+// 			break;
+// 		case 12:
+// 			console.log("Dec");
+// 			break;
 
 // 		default:
-// 			console.log("Invalid month");
+// 			console.log("Enter a valid month number");
 // 	}
 // }
 
-// myFunction(monthNum);
-
+// ***************** end of section *****************
 
