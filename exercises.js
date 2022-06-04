@@ -211,3 +211,8 @@ boolToString(false) ➞ "false"
 // findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
 
 
+function findMaxOfTwo(a, b) {
+
+}
+
+findMaxOfTwo(10, 20);
