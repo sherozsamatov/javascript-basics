@@ -1,9 +1,18 @@
+// Циклы в Javascript
 // while loop
+
+// Syntaxis
+
+// let myVar;
+
+// while(condition) {
+//   statement;
+// }
 
 // let count = 1;
 
 // while(count < 10) {
-//   console.log('Hello, world!');
+//   console.log('Hello, world!', count);
 //   count++;
 // }
 
