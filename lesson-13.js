@@ -2,8 +2,13 @@
 // Lesson 28 -  JavaScript var vs let
 // variable scope = where a variable is accessible
 
+// область видимости переменной = где переменная доступна
+
 // let = variables are limited to block scope {}
 // var = variables are limited to a function(){}
+
+// let = переменные ограничены внутри блока {}
+// var = переменные ограничены внутри функции function(){}
 
 
 // 1. in this case i only exists within the for loop
@@ -151,3 +156,31 @@ hmtl
   <label id="tempLabel"></label>
 */
 
+// JavaScript sort an array of strings
+// let fruits = ["banana", "apple", "orange", "mango"];
+
+// fruits = fruits.sort();
+// //fruits = fruits.sort().reverse();
+
+// for(let fruit of fruits){
+//     console.log(fruit);
+// }
+
+
+
+
+// 2D array = An array of arrays
+
+// let fruits =           ["apples", "oranges", "bananas"];
+// let vegetables = ["carrots", "onions", "potatoes"];
+// let meats =         ["eggs", "chicken", "fish"];
+
+// let groceryList = [fruits, vegetables, meats];
+
+// groceryList[2][2] = "steak";
+
+// for(let list of groceryList){
+//     for(let food of list){
+//         console.log(food);
+//     }
+// }
