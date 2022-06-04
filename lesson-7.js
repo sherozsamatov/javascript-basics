@@ -135,7 +135,7 @@
 // 3. Switch, case, break, default
 // Same as if, but with many 'else if's
 
-// let userRole = 'moderator';
+// let userRole = 'admin';
 
 // switch (userRole) {
 //   case 'guest':
@@ -158,19 +158,29 @@
 // ***************** end of section *****************
 
 
+// let userRole = 'guest';
+
+// if (userRole == 'guest') {
+//   console.log('Guest user');
+// }
+// else if (userRole === 'moderator') {
+//   console.log('Moderator user');
+// }
+// else if (userRole === 'admin') {
+//   console.log('Admin user');
+// }
+
+// else {
+//   console.log('Unknown user');
+// }
 
 
-// let userRole = '';
 
-// if (userRole == 'guest') console.log('Guest user');
-// else if (userRole === 'moderator') console.log('Moderator user');
-// else if (userRole === 'admin') console.log('Admin user');
-// else console.log('Unknown user');
 
-// let grade = 100;
+// let grade = 90;
 
 // switch (true) {
-//   case grade > 90:
+//   case grade >= 90:
 //     console.log('You did great!');
 //     break;
 
@@ -191,9 +201,6 @@
 // }
 
 // ***************** end of section *****************
-
-
-
 
 
 // this is saving our input to a variable
