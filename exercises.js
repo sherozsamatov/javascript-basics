@@ -211,8 +211,70 @@ boolToString(false) ➞ "false"
 // findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
 
 
-function findMaxOfTwo(a, b) {
+// function findMaxOfTwo(a, b) {
 
-}
+// }
 
-findMaxOfTwo(10, 20);
+// findMaxOfTwo(10, 20);
+
+// ****************** end of section ****************
+
+// let sum = 0;
+// for(i = 1; i <= 100; i++) {
+  // sum += i; // sum = sum + i
+// }
+
+// console.log(sum);
+
+// Same thing inside a function
+
+// function sumOfNums(a, b){
+//   let sum = 0;
+//   for(let i = a; i <= b; i++){
+//     sum = sum + i;
+//     console.log('i:', i, '\nsum:', sum);  
+//   }
+//   return sum;
+// }
+
+// console.log(sumOfNums(1, 5));
+
+
+// function multOfNums(a, b){
+//   let factorial = 1;
+
+//   for(let i = a; i <= b; i++){
+//     factorial *= i; // factorial = factorial * i;
+//     console.log('i:', i, '\nfactorial:', factorial);  
+//   }
+//   return `${b} factorial (${b}!)  is:  ${factorial}`;
+// }
+
+// console.log(multOfNums(1, 10));
+
+
+// let k = 0;
+// while (k < 5) {
+//   console.log('k: ', k);
+//   k += 1; 
+// }
+
+// let myName = 'Sheroz Samatov';
+
+// console.log(myName.charAt(0)); // this is the first character in the string
+// console.log(myName.charAt(myName.length - 1)); // this is the last character in the string
+
+
+// How to print string character by character in a new line
+
+// 1st way, a little harder way
+// for(let i = 0; i < myName.length; i += 1) {
+//   console.log(myName.charAt(i), i);
+// }
+
+// 2nd way, easy way
+// for(char of myName) {
+//   console.log(char);
+// }
+
+
