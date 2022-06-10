@@ -1,15 +1,13 @@
 // Lesson 7
 
-// 1. If else statements
+// 1. If/else statements
 
 
 // If else syntaxis
 // if(condition){
 //   statement
 //   if(condition2) {
-
 //   }
-
 // }
 // else if (anotherCondition){
 //   statement
@@ -21,12 +19,12 @@
 //   statement
 // }
 
-// Если время сутки между 6 утра и 12 дня: Доброе утро!
-// Если время сутки между 12 дня и 6 вечера: Добрый день!
-// Если время сутки между 6 вечера и 12 ночи: Добрый вечер!
+// Если время суток между 6 утра и 12 дня: Доброе утро!
+// Если время суток между 12 дня и 6 вечера: Добрый день!
+// Если время суток между 6 вечера и 12 ночи: Добрый вечер!
 // В остальных случаях: Спокойной ночи!
 
-// let hour = 12;
+// let hour = 1;
 
 // if (hour >= 6 && hour < 12) { // время между 6 утра и 12 дня
 //   console.log('Good morning');
@@ -45,7 +43,7 @@
 // }
 
 // If there's only only one condition inside the curly braces, 
-// the curly braces can optionally be left out. E.g. below
+// the curly braces can be optionally left out. E.g. below
 
 // let hour = 24;
 
@@ -61,36 +59,35 @@
 
 
 
-// function myFunction(month, monthName) {
+// function myFunction(month) {
 
 //   if (month == 1) {
-//     monthName = 'Jan';
+//     return 'Jan';
 //   } else if (month == 2) {
-//     monthName = 'Feb';
+//     return 'Feb';
 //   } else if (month == 3) {
-//     monthName = 'Mar';
+//     return 'Mar';
 //   } else if (month == 4) {
-//     monthName = 'Apr';
+//     return 'Apr';
 //   } else if (month == 5) {
-//     monthName = 'May';
+//     return 'May';
 //   } else if (month == 6) {
-//     monthName = 'Jun';
+//     return 'Jun';
 //   } else if (month == 7) {
-//     monthName = 'Jul';
+//     return 'Jul';
 //   } else if (month == 8) {
-//     monthName = 'Aug';
+//     return 'Aug';
 //   } else if (month == 9) {
-//     monthName = 'Sep';
+//     return 'Sep';
 //   } else if (month == 10) {
-//     monthName = 'Oct';
+//     return 'Oct';
 //   } else if (month == 11) {
-//     monthName = 'Nov';
+//     return 'Nov';
 //   } else if (month == 12) {
-//     monthName = 'Dec';
+//     return 'Dec';
 //   } else {
-//     monthName = 'Invalid month';
+//     return 'Invalid month';
 //   }
-//   return monthName;
 // }
 
 // let monthNum = prompt('Enter month number: ');

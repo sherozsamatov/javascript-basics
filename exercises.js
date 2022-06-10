@@ -210,4 +210,3 @@ boolToString(false) ➞ "false"
 
 // findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
 
-

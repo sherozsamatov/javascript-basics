@@ -44,7 +44,7 @@
 // let minimum;
 
 // x = Math.PI; // число Пи, константа
-// x = Math.round(x); // округляет
+// x = Math.round(x); // округляет по общему математическому правилу
 // x = Math.floor(x); // округляет в меньшую сторону
 // x = Math.ceil(x); // округляет в большую сторону
 // x = Math.pow(x, 5); // возвышает в степень (x **= 2; // x = x ** 2)
@@ -65,11 +65,12 @@
 // x = 0.2;
 // y = 0.4;
 
+// console.log((x + y));
 // console.log((x + y).toFixed(15));
 
 // Задача
 
-// let num1 = prompt('Enter side A of a right triangle: ')
+// let num1 = prompt('Enter side A of a right triangle: ');
 // let num2 = prompt('Enter side B of a right triangle: ')
 
 // function calcSqrt(a, b) {
