@@ -210,3 +210,100 @@ boolToString(false) ➞ "false"
 
 // findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") //➞ 0
 
+
+// **************** NEW SECTION START *******************
+// How to calculate the number is even or odd
+// 1st way.
+
+// function calcEvenOdd(number) {
+//   if(number % 2 == 0) {
+//     console.log(number, 'EVEN');
+//   }
+//   else {
+//     console.log(number, 'ODD');
+//   }
+// }
+
+// calcEvenOdd(100);
+
+// 2nd way.
+
+// function calcEvenOdd(number) {
+//   return (number % 2 === 0) ? `${number}, "EVEN"` : `${number}, "ODD"`
+// }
+
+// console.log(calcEvenOdd(99));
+
+
+// function isSameNum (a, b) {
+//   if(a === b) {
+//     console.log(true);
+//   }
+
+//   else {
+//     console.log(false);
+//   }
+// }
+
+// isSameNum(2, 2)
+
+// function isSameNum (a, b) {
+//   return (a == b) ? true : false
+// }
+
+// console.log(isSameNum(2, 2));
+
+// 
+
+// function findLargest(a, b) {
+//   if(a > b) {
+//     console.log(`${a} is the largest number`);
+//   }
+
+//   else if (a < b) {
+//     console.log(`${b} is the largest number`);
+//   }
+
+//   else {
+//     console.log(`${a} is equal to ${b}`);
+//   }
+// }
+
+// findLargest(29, 31);
+
+
+
+// function findLargest(a, b) {
+//   return (a > b) ? `${a} is the largest number` 
+//   : (a < b) ?  `${b} is the largest number` 
+//   : `${a} is equal to ${b}`
+// }
+
+// console.log(findLargest(5, 5));
+
+
+// function isValidNumber(input) {
+//   if(isNaN(input)){
+//     console.log(`${input} is not a number`);
+//   }
+//   else {
+//     console.log(`${input} is valid a number`);
+//   }
+
+// }
+
+// function isValidNumber(input) {
+//   if(Number.isNaN(input)){
+//     console.log(`${input} is not a number`);
+//   }
+//   else {
+//     console.log(`${input} is valid a number`);
+//   }
+// }
+
+// isValidNumber(11) // 11 is a valid number
+// isValidNumber('11') // '11 is a NOT valid number, it's a string
+// isValidNumber(true) // true is a boolean
+// isValidNumber('') // 11 is a valid number
+// isValidNumber(17.5) // 11 is a valid number
+// isValidNumber("asjhdasdw") // 11 is a valid number
