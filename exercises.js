@@ -307,3 +307,22 @@ boolToString(false) ➞ "false"
 // isValidNumber('') // 11 is a valid number
 // isValidNumber(17.5) // 11 is a valid number
 // isValidNumber("asjhdasdw") // 11 is a valid number
+
+
+// ***************** NEW SECTION START ******************
+function checkInRange(number, start, end) {
+
+}
+
+checkInRange(15, 11, 30) // "15 находится между 11 и 30"
+checkInRange(20, 34, 51) // "20 не находится между 34 и 51"
+
+
+
+function findTriangleType(a, b, c) {
+
+}
+
+checkInRange(12, 12, 12) // равносторонний треугольник
+checkInRange(20, 20, 31) // равносбедренный треугольник
+checkInRange(5, 4, 3) // неравносторонний треугольник
