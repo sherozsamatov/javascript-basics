@@ -215,21 +215,21 @@ boolToString(false) ➞ "false"
 // How to calculate the number is even or odd
 // 1st way.
 
-// function calcEvenOdd(number) {
-//   if(number % 2 == 0) {
-//     console.log(number, 'EVEN');
-//   }
-//   else {
-//     console.log(number, 'ODD');
-//   }
-// }
+function calcEvenOdd(number) {
+  if(number % 2 == 0) {
+    console.log(number, 'EVEN');
+  }
+  else {
+    console.log(number, 'ODD');
+  }
+}
 
-// calcEvenOdd(100);
+calcEvenOdd(100);
 
 // 2nd way.
 
 // function calcEvenOdd(number) {
-//   return (number % 2 === 0) ? `${number}, "EVEN"` : `${number}, "ODD"`
+  // return (number % 2 === 0) ? `${number}, "EVEN"` : `${number}, "ODD"`
 // }
 
 // console.log(calcEvenOdd(99));
