@@ -272,7 +272,6 @@ boolToString(false) ➞ "false"
 // findLargest(29, 31);
 
 
-
 // function findLargest(a, b) {
 //   return (a > b) ? `${a} is the largest number` 
 //   : (a < b) ?  `${b} is the largest number` 
@@ -310,19 +309,162 @@ boolToString(false) ➞ "false"
 
 
 // ***************** NEW SECTION START ******************
-function checkInRange(number, start, end) {
+// function checkInRange(number, start, end) {
 
-}
+// }
 
-checkInRange(15, 11, 30) // "15 находится между 11 и 30"
-checkInRange(20, 34, 51) // "20 не находится между 34 и 51"
+// checkInRange(15, 11, 30) // "15 находится между 11 и 30"
+// checkInRange(20, 34, 51) // "20 не находится между 34 и 51"
 
 
 
-function findTriangleType(a, b, c) {
+// function findTriangleType(a, b, c) {
+//   if(a === b && b === c && a ===c) {
+//     console.log('равносторонний треугольник');
+//   }
+//   else if(a === b || b === c || a === c) {
+//     console.log('равнобедренный треугольник');
+//   }
+//   else {
+//     console.log('неравносторонний треугольник');
+//   }
+// }
 
-}
 
-checkInRange(12, 12, 12) // равносторонний треугольник
-checkInRange(20, 20, 31) // равносбедренный треугольник
-checkInRange(5, 4, 3) // неравносторонний треугольник
+// findTriangleType(12, 12, 12) // равносторонний треугольник
+// findTriangleType(31, 20, 31) // равнобедренный треугольник
+// findTriangleType(5, 4, 3) // неравносторонний треугольник
+
+// function findTriangleType(a, b, c) {
+//   return (a === b && b === c && a ===c) 
+//   ? 'равносторонний треугольник' : 
+//   (a === b || b === c || a === c) 
+//   ? 'равнобедренный треугольник' :
+//   'неравносторонний треугольник'
+// }
+
+// console.log(findTriangleType(12, 12, 12)); // равносторонний треугольник
+// console.log(findTriangleType(31, 20, 31));  // равнобедренный треугольник
+// console.log(findTriangleType(5, 4, 3));  // неравносторонний треугольник
+
+
+// function myArray(array, element) {
+//   element = array.pop();
+//   array.unshift(element);
+//   console.log(array);
+// }
+
+// function myArray(array, element) {
+//   element = array[array.length - 1];
+//   array.pop();
+//   array.unshift(element);
+//   console.log(array);
+// }
+
+
+// let elem1 = '123';
+// let arr = ['abc', 'def', 'ghi', 'jkl'];
+// myArray(arr);
+
+// function returnSum(number, sum) {
+//   sum = 0;
+//   for(let x = 0; x < number; x+=1){
+//     if (x % 3 === 0 || x % 5 === 0) {
+//       sum += x;
+//     }
+//   }
+//   console.log('Сумма равна: ', sum);
+// }
+
+// returnSum(20); 
+// 3: 3, 6, 9, 12, 15, 18. 
+// 5: 5, 10, 15. 
+// sum: 78
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function calcEvenOdd(number) {
+//   let num = 1;
+//   while(num <= number) {
+//   (number % 2 === 0) ? console.log(num, 'EVEN') : console.log(num, 'ODD')
+//   num++;
+// }
+// }
+
+// calcEvenOdd(10)
+
+// function calcEvenOdd(number) {
+// for(let i = 1; i <= number; i += 1){
+//   if(i % 2 === 0) {
+//     console.log(i, 'EVEN');
+//   }
+//   else{
+//     console.log(i, 'ODD');
+//   }
+// }
+// }
+
+// calcEvenOdd(5);
+
+// function calcEvenOdd(number) {
+//   for(let i = 1; i <= number; i += 1){
+//     // (i % 2 === 0) ? console.log(i, 'even') : console.log(i, 'odd');
+//     (i % 2 === 0) ? console.log(`${i} even`) : console.log(`${i} odd`);
+//   }
+//   }
+
+
+// function calcEvenOdd(number) {
+//   return (number % 2 === 0) ? `${number} even` : `${number} odd`;
+// }
+// console.log(calcEvenOdd(5));
+
+
+// console.log(calcEvenOdd(100));
+// let number = 1;
+// while(number <= 10) {
+//   if(number % 2 === 0) {
+//     console.log(number, 'EVEN');
+//   }
+//   else{
+//     console.log(number, 'ODD');
+//   }
+//   number++;
+// }
+
+// let number = 1;
+// while(number <= 10) {
+//   (number % 2 === 0) ? console.log(number, 'EVEN') : console.log(number, 'ODD')
+//   number++;
+// }
+
+
+// function findLargest(a, b) {
+
+// }
+
+// findLargest(10, 14);
+// findLargest(14, 5);
+// findLargest(6, 6);
